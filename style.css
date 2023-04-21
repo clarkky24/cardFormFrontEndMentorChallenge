@@ -1,0 +1,87 @@
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@300;500;600&family=Space+Grotesk:wght@300;500;600;700&display=swap');
+* {
+   box-sizing: border-box;
+   margin: 0;
+   padding: 0; 
+   font-family: 'Space Grotesk', sans-serif;
+}
+
+/* .main-img img{
+    width: 120%;
+}
+
+.card-img{
+    position: absolute;
+    top: 2em;
+
+}
+.card-img:first-child{
+    width: 75%;
+}
+
+.back-img{
+    width: 60%;
+    top: -10em;
+} */
+body{
+    padding: 3em;
+}
+
+form .label-big{
+    display: block;
+    font-size: .6em;
+    letter-spacing: 2px;
+    margin-bottom: .5em;
+    font-weight: 500;
+    
+}
+form .name-input{
+    border-radius: 5px;
+    border: 1px solid rgb(230, 224, 224);
+    padding: .8em;
+    width: 100%;
+    margin-bottom: 1.5em;
+    font-size: .7em;
+    letter-spacing: 2px;
+    
+}
+.exp-date{
+    display: grid;
+    grid-template-columns: 1fr 1fr 2fr;
+    margin-bottom: 1.5em;
+}
+.date-text{
+    font-size: .6em;
+    letter-spacing: 2px;
+    font-size: .6em;
+    
+    
+}
+.date-text label{
+    display: block;
+    margin-bottom: .8em;
+}
+
+.small-input{
+    width: 90%;
+    border-radius: 5px;
+    border: 1px solid rgb(230, 224, 224);
+    padding: .5em;
+    text-align: center;
+
+    
+}
+#cvc{
+    width: 100%;
+}
+#continue{
+    background-color:  hsl(278, 68%, 11%);
+    border: 1px solid hsl(279, 6%, 55%);
+    padding: .8em 1.4em;
+    color: hsl(0, 0%, 100%);
+    border-radius: 5px;
+    width: 100%;
+    letter-spacing: 2px;
+    font-weight: 600;
+    margin-bottom: 3em;
+}
