@@ -43,3 +43,21 @@
     font-weight: 600;
     margin-bottom: 3em;
 }
+
+@media (min-width: 768px) {
+    /* styles for tablet and PC devices */
+    .sucessContainer {
+        width: 60%;
+        margin: 3em auto; 
+    }
+
+  }
+
+  @media (min-width: 1044px) {
+    /* styles for tablet and PC devices */
+    .sucessContainer {
+        width: 40%;
+        margin: 3em auto; 
+    }
+
+  }

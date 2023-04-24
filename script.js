@@ -9,6 +9,8 @@ const cvc = document.getElementById('cvc');
 const yearError = document.getElementById('yearError');
 const monthError = document.getElementById('monthError');
 const cvcError = document.getElementById('cvcError');
+// const inputsAll = document.querySelectorAll('input[type="text"], input[type="number"]');
+
 
 
 
@@ -107,15 +109,30 @@ function cardCheck() {
         cvc.style.marginBottom = '1em';
     }
   }
+  //function that style when focus or blur
+
+  
+//   inputsAll.forEach(function(input) {
+//     // Add event listener for when the input is in focus
+//     inputs.addEventListener('focus', function() {
+//       inputs.classList.add('focused');
+//     });
+  
+//     // Add event listener for when the input loses focus
+//     input.addEventListener('blur', function() {
+//       inputs.classList.remove('focused');
+//     });
+//   });
 
   //function that handles form submission
 
   function formSubmitHandler(e){
     e.preventDefault();
-
+    window.location.href = 'success.html';
     form.reset();
     
   } 
+
 
 form.addEventListener('submit', formSubmitHandler)
 cvc.addEventListener('input', cvcCheck)

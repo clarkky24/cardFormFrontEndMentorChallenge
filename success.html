@@ -3,7 +3,7 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
-  <link rel="stylesheet" href="styleSuccess.css">
+  <link rel="stylesheet" href="successStyle.css">
   <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
   
   <title>Frontend Mentor | Interactive card details form</title>
@@ -18,12 +18,23 @@
 
     <div class="sucessContainer">
 
-        <img src="/cardFormFrontEndMentorChallenge-main/images/icon-complete.svg" alt="" class="check">
+        <img src="images/icon-complete.svg" alt="" class="check">
         <h1 class="successH1">THANK YOU!</h1>
         <p class="successP">We've added your card details</p>
 
         <button class="continue">Continue</button>
 
     </div>
+
+    <script >
+        const mainUi = document.querySelector('.continue');
+          // going back to the main Interface\
+     function mainUserInterface(){
+    window.location.href = 'index.html';
+
+    }
+
+    mainUi.addEventListener('click', mainUserInterface)
+    </script>
 </body>
 </html>
